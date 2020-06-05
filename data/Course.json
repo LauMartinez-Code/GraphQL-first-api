@@ -1,0 +1,22 @@
+[
+	{ 
+        "id": 1, 
+        "name": "Microsoft Excel - Excel from Beginner to Advanced",
+        "description": "Microsoft Excel 2010, 2013, 2016, Excel 2019 and Office 365"
+    },
+	{ 
+        "id": 2, 
+        "name": "The Complete Digital Marketing Course",
+        "description": "Master Digital Marketing: Strategy, YouTube, Email, Facebook Marketing, Analytics & More!"
+    },
+    { 
+        "id": 3, 
+        "name": "Node: De cero a experto",
+        "description": "Rest, despliegues, heroku, git, github, sockets y mucho más para ser un experto en Node"
+    },
+    { 
+        "id": 4, 
+        "name": "SQL desde cero: Curso práctico y sin prerrequisitos técnicos",
+        "description": "Convierte tu data en información valiosa para tu negocio - aprende SQL en MySQL"
+    }
+]
