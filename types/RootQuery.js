@@ -6,14 +6,14 @@ const {
     GraphQLInt
 } = require('graphql');
 
-const RootQueryType = new GraphQLObjectType({   //declara las posibles querys
+const RootQueryType = new GraphQLObjectType({   
     name: 'Query',
     description: 'Root Query',
     fields: () => ({
-        courses: {    //query: books
-            type: new GraphQLList(CourseType),    //tipo del return: List(tipo book)
+        courses: {   
+            type: new GraphQLList(CourseType),
             description: 'List of All Courses',
-            resolve: () => courses   //logica
+            resolve: () => courses
         },
         course: {
             type: CourseType,
