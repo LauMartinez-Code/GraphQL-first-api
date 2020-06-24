@@ -1,5 +1,4 @@
 const courses = require('../data/Course.json');
-const grades = require('../data/Grade.json');
 const students = require('../data/Student.json');
 const {
     GraphQLObjectType,
